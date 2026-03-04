@@ -9,6 +9,7 @@
 VDLPN 是一个 point function (除了 $f_a(a)=1$ 之外, 其余位置 $f_a(x\neq a)=0$).
 
 VDLPN 的形式化定义为:
+
 $$
 F_k(x) := \bigoplus_{i=1}^D \bigoplus_{j=1}^w \prod_{\ell=1}^i (x_{i,j,\ell} \oplus k_{i,j,\ell})
 $$
