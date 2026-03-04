@@ -20,7 +20,7 @@ $$
 
 其安全性基于安全性参数 $\lambda$, 这个安全性参数又对应 3 个参数 $par=\{w=w(\lambda), D, N=2^D\}$, 结合 LPN 的定义 (假设) 理解: 
 
-* 其中 $w$ 是稀疏性参数 (sparsity parameter),  其对应于 **secret** 噪声向量 Noise vector $\stackrel{\rightarrow}{e}$ 与 **public** 矩阵 $H$ 中每一行的非零 **坐标**.
+* 其中 $w$ 是稀疏性参数 (sparsity parameter),  其对应于 **secret** 噪声向量 Noise vector $\stackrel{\rightarrow}{e}$ 与 **public** 矩阵 $H$ 中每一行的非零 **坐标**的**数量**.
 * 其中 $D$ 是分组参数 (block parameter), 对应于矩阵 $H$ 的分组数量.
 * 其中 $N$ 是采样数 (#sample), 这里设置为 $2^D$.
 
