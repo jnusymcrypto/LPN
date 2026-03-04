@@ -26,7 +26,7 @@ $$
 
 对于给定的三种参数形式, 又可分为三类 VDLPN 的假设形式:
 
-* 标准 VDLPN 假设 (VDLPN(par)) 其中每个 $\vec{e}_i$ 和 $H_i$ 的每一行（长度为 $w \cdot 2^i$）独立地从 $\text{Ber}_{1/2}^{w \cdot 2^i}$ 中采样.
+* 标准 VDLPN 假设 (VDLPN(par)) 其中每个 $\vec{e}_i$ 和 $H_i$ 的每一行（长度为 $w \cdot 2^i$ ）独立地从 伯努利分布 $\text{Ber}_{1/2}^{w \cdot 2^i}$ 中采样.
 * 精确 VDLPN 假设 (xVDLPN(par)), 其中每个 $\vec{e}_i$ 和 $H_i$ 的每一行均匀地从所有长度为 $w \cdot 2^i$ 且恰好有 $w$ 个非零项的向量集合中采样.
 * 正则 VDLPN 假设 (rVDLPN(par)), 其中每个 $\vec{e}_i$ 和 $H_i$ 的每一行通过拼接 $w$ 个随机长度为 $2^i$ 的单位向量得到 (即它们被划分为 $w$ 个等长块，每个块中恰有一个随机的 1).
 
